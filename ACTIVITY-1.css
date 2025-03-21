@@ -1,0 +1,70 @@
+*{
+    background-color: #03091b;
+    font-family: "Lexend Giga"
+}
+h1{
+    font-family: "Lexend Giga", sans-serif;
+    color: white;
+}
+
+#information{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5%;
+    padding-bottom: 4%;
+    border-bottom: solid 1px gray;
+}
+.photo img {
+    border-radius: 50%;
+    margin-right: 20px;
+    box-shadow: 0 4px 10px rgba(2, 2, 2, 0.5);
+}
+#about-me
+{
+    margin: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 4%;
+    border-bottom: solid 1px gray;
+}
+#skills-container{
+    margin: 10%;
+    padding-left: 10%;
+    padding-bottom: 4%;
+    border-bottom: solid 1px gray;
+}
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    
+    gap: 10px;
+    max-width: 600px;
+    margin-top: 10px;
+}
+
+.skill {
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    border: 1px solid #333;
+    transition: 0.3s;
+
+
+    
+}
+#project-container{
+    margin: 10%;
+    padding-left: 10%;
+    padding-bottom: 4%;
+    padding-right: 10%;
+    border-bottom: solid 1px gray;
+}
+.projects{
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
